@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.18)
 project(Bananan VERSION 0.0.1)
 
-SET(MAX_FILE "2")
+option(MAX_FILE "Max count generated file for test" "2")
 option(PVS_CMAKE_ANALYZER "Analyze with PVS-Studio" OFF)
 set(CMAKE_EXPORT_COMPILE_COMMANDS On)
 
